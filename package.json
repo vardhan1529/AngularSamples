@@ -1,0 +1,44 @@
+{
+  "name": "simplemessenger",
+  "version": "1.0.0",
+  "description": "a simple messenger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vardhan1529/AngularSamples.git"
+  },
+  "author": "vardhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vardhan1529/AngularSamples/issues"
+  },
+  "homepage": "https://github.com/vardhan1529/AngularSamples#readme",
+  "dependencies": {
+    "@angular/common": "^4.3.3",
+    "@angular/compiler": "^4.3.3",
+    "@angular/core": "^4.3.3",
+    "@angular/forms": "^4.3.3",
+    "@angular/http": "^4.3.3",
+    "@angular/platform-browser": "^4.3.3",
+    "@angular/platform-browser-dynamic": "^4.3.3",
+    "@angular/platform-server": "^4.3.3",
+    "@angular/router": "^4.3.3",
+    "bootstrap": "^3.3.7",
+    "concurrently": "^3.5.0",
+    "core-js": "^2.5.0",
+    "css-loader": "^0.28.4",
+    "html-webpack-plugin": "^2.30.1",
+    "jquery": "^3.2.1",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.4.2",
+    "style-loader": "^0.18.2",
+    "ts-loader": "^2.3.2",
+    "typings": "^2.1.1",
+    "webpack": "^3.5.0",
+    "webpack-dev-server": "^2.6.1",
+    "zone.js": "^0.8.16"
+  }
+}
