@@ -1,4 +1,41 @@
-<div class="container">
-    <div class="col-md-4"  (click)="fire()">safdasf</div>
-    <div class="col-md-4">asfdsa</div>
+<div class="container-fluid main_container" id="main_container">
+    <div class="row header_container">
+        <div class="dropdown user_menu">
+            <button class="btn btn-primary dropdown-toggle user_menu_btn" type="button" data-toggle="dropdown">
+                    Jayavardhan
+                    <span class="caret"></span>
+                </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Edit Profile</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">SignOut</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="discussion_container row">
+        <group_menu [groups]=GroupMenu></group_menu>
+        <div class="col-lg-11 col-md-10 col-sm-8 col-xs-7 message_container">
+            <div class="row message">
+                <div class="user_img"><img src="src/images/user_sample.PNG" class="user_img" /></div>
+                <div class="message_content">
+                    <div>User 1</div>
+                    <div>The User 1 has commented</div>
+                </div>
+            </div>
+            <div class="row message">
+                <div class="user_img"><img src="src/images/user_sample.PNG" class="user_img" /></div>
+                <div class="message_content">
+                    <div>User 2</div>
+                    <div>The User 2 has commented</div>
+                </div>
+            </div>
+            <div class="row message">
+                <div class="user_img"><img src="src/images/user_sample.PNG" class="user_img" /></div>
+                <div class="message_content">
+                    <div>User 3</div>
+                    <div>The User 3 has commented</div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

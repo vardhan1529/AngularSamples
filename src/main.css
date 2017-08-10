@@ -1,0 +1,89 @@
+        body {
+            background-color: black;
+        }
+
+        .main_container {
+            height: 100%;
+            background-color: aquamarine;
+        }
+
+        .discussion_container {
+            height: 100%;
+            padding-top: 50px;
+        }
+
+        .message_container {
+            background-color: white;
+            height: 100%;
+            overflow-y: scroll;
+        }
+
+        .header_container {
+            background-color: black;
+            height: 50px;
+            position: fixed;
+            z-index: 1000;
+            width: 100%;
+            color: white;
+        }
+
+        .group_container {
+            background-color: gainsboro;
+            height: 100%;
+            padding: 0px;
+        }
+
+        .user_img {
+            /*margin-left: -20px;*/
+            float: left;
+        }
+
+            .user_img > img {
+                border-radius: 20px;
+                width: 40px;
+                height: 40px;
+            }
+
+        .message {
+            margin: 20px 0 20px 0;
+            padding-bottom: 15px;
+            border-bottom: 2px solid lightgrey;
+        }
+
+        .message_content {
+            margin-left: 50px;
+        }
+
+        .float_left {
+            float: left;
+        }
+
+        .group_menu{
+            list-style:none;
+            padding: 0px;
+        }
+
+            .group_menu > li {
+                padding: 15px 15px 15px 25px;
+                font-size: 20px;
+                color: cadetblue;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+
+        .menu_active{
+            background-color: aliceblue;
+        }
+
+        .user_menu{
+            float:right;
+            padding-right: 20px;
+        }
+
+        .user_menu_btn{
+            height: 50px;
+            font-size: 20px;
+            background-color:black;
+            border: none;
+        }
