@@ -8,7 +8,7 @@ declare var $: any;
 @Component({
     selector: 'my-app',
     templateUrl: './src/app.html',
-    styleUrls: ['./src/styles.scss', './src/main.css'],
+    styleUrls: ['./src/main.css'],
     encapsulation: ViewEncapsulation.None
 })
 export class AppComponent implements OnInit {

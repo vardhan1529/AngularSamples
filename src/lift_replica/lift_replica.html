@@ -1,0 +1,13 @@
+﻿
+<div *ngFor="let stage of liftDetails.Stages">
+    <div class="row">
+        <div class="stage" [ngClass]="{'stage': true, 'col-md-6': true, 'active_stage': stage.Active}">
+            {{stage.Alias}}
+        </div>
+
+        <div class="stage" [ngClass]="{'col-md-6': true}">
+            <span class="glyphicon glyphicon-chevron-up" (click)="PressUpButton(stage.StageNo)"></span>
+            <span class="glyphicon glyphicon-chevron-down" (click)="PressDownButton(stage.StageNo)"></span>
+        </div>
+    </div>
+</div>

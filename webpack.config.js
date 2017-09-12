@@ -33,5 +33,9 @@ module.exports = {
       $: 'jquery',
       jquery: 'jquery'
     })
-    ]
+    ],
+    devServer: {
+        historyApiFallback: true,
+        stats: 'minimal'
+    }
 };
